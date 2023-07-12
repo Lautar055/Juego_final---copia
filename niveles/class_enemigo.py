@@ -10,7 +10,7 @@ class Enemigo:
         self.estado_vida = "vivo"
         
         self.contador_pasos = 0
-        self.que_hace = "izquierda" # idle - muerto
+        self.que_hace = "izquierda" # izq/dere - muerto
         self.animaciones = animaciones
         self.reescalar_animaciones()
 
